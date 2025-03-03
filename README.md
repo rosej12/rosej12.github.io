@@ -26,11 +26,11 @@ npm -v
 `
 
 ### Steps for Running Locally
-1. Clone the repository
+1. Clone the repository with
 `git clone https://github.com/rosej12/rosej12.github.io.git`
-2. Install the necessary dependencies in the project directory
+2. Install the necessary dependencies in the project directory using
 `npm install`
-3. Run the app locally
+3. Run the app locally with
 `npm start`
 
 ## Technologies Used
