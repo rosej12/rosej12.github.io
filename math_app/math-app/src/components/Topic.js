@@ -1,3 +1,13 @@
+/**
+ * Topic.js
+ * 
+ * This component displays a list of topics for a subject along with its
+ * description and a link to its practice problems page. If a subject and topic
+ * do not have any practice problems, an error message is displayed.
+ * 
+ * Note: the topics and descriptions are hardcoded here
+ **/
+
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 
@@ -31,16 +41,24 @@ function Topic() {
       <h1>{subject.charAt(0).toUpperCase() + subject.slice(1)}</h1>
       <h2>Topics</h2>
       <ul className="topic-list">
+
+        {/* display each topic */}
         {Object.keys(subjectTopics).map((topic) => (
           <li key={topic} className="topic-item">
+
+            {/* display topic name */}
             <h3>{topic.charAt(0).toUpperCase() + topic.slice(1)}</h3>
+
+            {/* display topic description */}
             <p>{subjectTopics[topic]}</p>
-            {/* Link to the specific practice page for this topic */}
+
+            {/* Link to the practice page for this topic */}
             <Link to={`/${subject}/${topic}`} className="practice-link">
               Go to {topic.charAt(0).toUpperCase() + topic.slice(1)} Practice
             </Link>
           </li>
         ))}
+
       </ul>
     </div>
   );

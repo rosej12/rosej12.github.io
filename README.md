@@ -7,7 +7,7 @@ This is an interactive web application developed with React that features practi
 
 - A homepage displaying different subjects
 - A topic page for each subject displaying descriptions and links to related practice problems
-- Interactive multiple-choice questions with dynamic feedback based on user selections
+- Interactive multiple-choice questions with dynamic feedback based on user selections (Currently only available for "Math: Algebra" topic.)
 - Mobile-friendly design
 
 ## Online Demo
@@ -48,7 +48,7 @@ One of the biggest challenges I faced during this project was that I was complet
 
 2. Limited Timeframe
 
-Another challenge for me was the short timeframe I had to complete the project. This required me to prioritize the core features and also led to a lot of trial and error, especially since I was working with React for the first time. From this, I have learned to balance keeping things simple and functional while still meeting the requirements. If I had more time, I would be able to further refine the current features, add additional ones, and also work on improving styling.
+Another challenge for me was the short timeframe I had to complete the project. This required me to prioritize the core features and also led to a lot of trial and error, especially since I was working with React for the first time. From this, I have learned to balance keeping things simple and functional while still meeting the requirements. If I had more time, I would be able to further refine the current features, add additional ones, work on improving styling and also improve the code structure.
 
 ## Future Improvements
 - External Data Source: Currently, all the questions and information are hardcoded. In the future, they could be moved to an input file (e.g., JSON or CSV), which would make it easier to manage. Alternatively, a backend server or API could be integrated for fetching questions and other data to provide even more flexibility.

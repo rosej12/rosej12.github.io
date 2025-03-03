@@ -1,3 +1,12 @@
+/**
+ * Practice.js
+ * 
+ * This component displays a practice page with all the practice problems 
+ * for a specific subject and topic.
+ * 
+ * Note: the questions are currently hardcoded here
+ **/
+
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Question from './Question';
@@ -5,7 +14,7 @@ import Question from './Question';
 function Practice() {
   const { subject, topic } = useParams(); // Get the subject and topic from the URL
   
-  // Define the question sets
+  // Define the question sets for each subject and topic
   const questionSet = {
     math: {
       algebra: [
@@ -47,7 +56,7 @@ function Practice() {
     }
   };
 
-  // Get questions based on the subject and topic
+  // Get questions to display based on the subject and topic
   const questions = questionSet[subject] && questionSet[subject][topic] ? questionSet[subject][topic] : [];
 
   return (
