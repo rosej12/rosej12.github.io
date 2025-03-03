@@ -44,7 +44,7 @@ npm -v
 
 1. Unfamiliarity with React
 
-One of the biggest challenges I faced during this project was that I was completely unfamiliar with React beforehand, and although I had some experience with Javascript, it had been quite a while since I last worked with it. Many aspects of React, such as its component-based architecture, hooks, and state management were all new to me, so the learning curve was quite steep at first. As a result, I spent a significant amount of time going through tutorials and the React documentation to get a good grasp of the basics before and while working on the project. I was also unfamiliar with common React errors so debugging those took time, but reading carefully through error messages and the documentation and other tutorials helped resolve most issues.
+One of the biggest challenges I faced during this project was that I was completely unfamiliar with React beforehand, and although I had some experience with Javascript, it had been quite a while since I last worked with it. Many aspects of React, such as its component-based architecture, hooks, and state management were all new to me, so the learning curve was quite steep at first. As a result, I spent a significant amount of time going through tutorials and the React documentation to get a good grasp of the basics before and while working on the project. At the start, even getting everything installed and figuring out how to get my react app to deploy to GitHub pages took a long time, but I was able to figure it out with the help of online tutorials.
 
 2. Limited Timeframe
 
